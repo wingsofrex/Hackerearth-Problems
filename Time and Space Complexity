@@ -1,0 +1,40 @@
+Problem Description
+Given a series of integer pairs A and B, output the sum of A and B.
+
+Input Format
+Each line contains two integers, A and B. One input file may contain several pairs P where 0<=P<=12.
+
+Output Format
+Output a single integer per line - The sum of A and B.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+SAMPLE INPUT        SAMPLE OUTPUT                    \
+1 2                       3                         \\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+# count = 1
+# flag =True
+# while flag:
+# #while(flag):
+#     count += 1
+#     if(input().split()):
+#         #x, y = [int(x) for x in input().split()]   
+#         var1, var2 = map(int, input().split())
+#         out = int(var1) + int(var2)
+#         print(out)
+#         if count > 12:
+#             flag = False
+#     else:
+#         break
+# # #     count += 1
+# # # if count == 12:
+# # # #     flag = False
+# for x,y in [int(x) for x in input().split()]:
+#     print(x+y)
+import sys
+inputs=sys.stdin.readlines()
+#print(inputs)
+for i in inputs:
+    #print(i)
+    a, b = i.split()
+    sum = int(a) + int(b)
+    print(sum)
