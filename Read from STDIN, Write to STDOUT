@@ -1,0 +1,13 @@
+# Read different types of data from standard input, process them as shown in output format and print the answer to standard output.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Sample Input     Sample Output\
+5                10           \
+helloworld       helloworld   \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+x = input()
+if int(x) <= 10:
+    print(int(x) * 2)
+name = input()
+if len(name) <= 15:
+    print(name)
